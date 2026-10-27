@@ -1,0 +1,37 @@
+# Build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# ReSharper
+_ReSharper*/
+*.DotSettings
+
+# NuGet
+packages/
+*.nupkg
+
+# Credentials and local config
+password.txt
+*.key
+*.secret
+appsettings.*.json
+secrets.json
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
